@@ -26,8 +26,7 @@ const personScheme=new mongoose.Schema({
         type:String
     },
     salary:{
-        type:Number,
-        required:true
+        type:Number
     }
 });
 

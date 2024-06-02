@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 //define the mongodb connection
-const mongoURL='mongodb+srv://avanishYadav:avanish@cluster0.dq3nqba.mongodb.net/'
+const mongoURL='mongodb+srv://avanishYadav:avanish@cluster0.dq3nqba.mongodb.net/mydatabase'
 //set up Mongodb connection
 mongoose.connect(mongoURL,{
     useNewUrlParser:true,
