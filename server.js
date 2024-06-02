@@ -16,7 +16,7 @@ app.post('/person',(req,res)=>{
   const newPerson=new person(data);
 
   //save the new person to the database
-  newPerson.save((error,savedPerson)=>{
+  newPerson.save((error,savedPerson)=>{ //but now a time callback is not used but async await is used
       if(error){
         console.log('Error saving person',error);
         res.status(500).json({error:'Internal server error'});
