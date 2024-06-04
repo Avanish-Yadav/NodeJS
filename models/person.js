@@ -30,6 +30,6 @@ const personScheme=new mongoose.Schema({
     }
 });
 
-//create person model
+//create person model   
 const Person=mongoose.model('person',personScheme);
 module.exports=Person;
