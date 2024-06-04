@@ -1,3 +1,4 @@
+//This is main server to enter
 const express = require('express')
 const app = express()
 const db=require('./db');
